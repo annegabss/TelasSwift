@@ -13,6 +13,18 @@
 		C0CEA1C92B23453D000349D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CEA1C72B23453D000349D3 /* Main.storyboard */; };
 		C0CEA1CB2B23454F000349D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CEA1CA2B23454F000349D3 /* Assets.xcassets */; };
 		C0CEA1CE2B23454F000349D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CEA1CC2B23454F000349D3 /* LaunchScreen.storyboard */; };
+		C0CEA1DF2B23470E000349D3 /* VerdeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1DE2B23470E000349D3 /* VerdeView.swift */; };
+		C0CEA1E12B234718000349D3 /* VerdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1E02B234718000349D3 /* VerdeViewController.swift */; };
+		C0CEA1E32B234722000349D3 /* VermelhaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1E22B234722000349D3 /* VermelhaView.swift */; };
+		C0CEA1E52B234734000349D3 /* VermelhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1E42B234734000349D3 /* VermelhaViewController.swift */; };
+		C0CEA1E72B23473E000349D3 /* AzulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1E62B23473E000349D3 /* AzulView.swift */; };
+		C0CEA1E92B23474B000349D3 /* AzulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1E82B23474B000349D3 /* AzulViewController.swift */; };
+		C0CEA1EB2B23475D000349D3 /* VerdeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1EA2B23475D000349D3 /* VerdeCoordinator.swift */; };
+		C0CEA1ED2B23476A000349D3 /* AzulCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1EC2B23476A000349D3 /* AzulCoordinator.swift */; };
+		C0CEA1EF2B23477E000349D3 /* VermelhaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1EE2B23477E000349D3 /* VermelhaCoordinator.swift */; };
+		C0CEA1F12B2348AC000349D3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1F02B2348AC000349D3 /* Coordinator.swift */; };
+		C0CEA1F42B234AF8000349D3 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1F32B234AF8000349D3 /* ButtonDefault.swift */; };
+		C0CEA1F72B2359ED000349D3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1F62B2359ED000349D3 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		C0CEA1CA2B23454F000349D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CEA1CD2B23454F000349D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0CEA1CF2B23454F000349D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CEA1DE2B23470E000349D3 /* VerdeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeView.swift; sourceTree = "<group>"; };
+		C0CEA1E02B234718000349D3 /* VerdeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeViewController.swift; sourceTree = "<group>"; };
+		C0CEA1E22B234722000349D3 /* VermelhaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VermelhaView.swift; sourceTree = "<group>"; };
+		C0CEA1E42B234734000349D3 /* VermelhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VermelhaViewController.swift; sourceTree = "<group>"; };
+		C0CEA1E62B23473E000349D3 /* AzulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzulView.swift; sourceTree = "<group>"; };
+		C0CEA1E82B23474B000349D3 /* AzulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzulViewController.swift; sourceTree = "<group>"; };
+		C0CEA1EA2B23475D000349D3 /* VerdeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeCoordinator.swift; sourceTree = "<group>"; };
+		C0CEA1EC2B23476A000349D3 /* AzulCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzulCoordinator.swift; sourceTree = "<group>"; };
+		C0CEA1EE2B23477E000349D3 /* VermelhaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VermelhaCoordinator.swift; sourceTree = "<group>"; };
+		C0CEA1F02B2348AC000349D3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C0CEA1F32B234AF8000349D3 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		C0CEA1F62B2359ED000349D3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,99 @@
 		C0CEA1C02B23453D000349D3 /* TelasSwift */ = {
 			isa = PBXGroup;
 			children = (
-				C0CEA1C12B23453D000349D3 /* AppDelegate.swift */,
-				C0CEA1C32B23453D000349D3 /* SceneDelegate.swift */,
-				C0CEA1C52B23453D000349D3 /* ViewController.swift */,
-				C0CEA1C72B23453D000349D3 /* Main.storyboard */,
-				C0CEA1CA2B23454F000349D3 /* Assets.xcassets */,
-				C0CEA1CC2B23454F000349D3 /* LaunchScreen.storyboard */,
+				C0CEA1D62B234627000349D3 /* Source */,
+				C0CEA1D52B234601000349D3 /* Resource */,
 				C0CEA1CF2B23454F000349D3 /* Info.plist */,
 			);
 			path = TelasSwift;
+			sourceTree = "<group>";
+		};
+		C0CEA1D52B234601000349D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1C32B23453D000349D3 /* SceneDelegate.swift */,
+				C0CEA1C52B23453D000349D3 /* ViewController.swift */,
+				C0CEA1C12B23453D000349D3 /* AppDelegate.swift */,
+				C0CEA1CA2B23454F000349D3 /* Assets.xcassets */,
+				C0CEA1CC2B23454F000349D3 /* LaunchScreen.storyboard */,
+				C0CEA1C72B23453D000349D3 /* Main.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C0CEA1D62B234627000349D3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1F52B2359D8000349D3 /* Extensions */,
+				C0CEA1F22B234AD7000349D3 /* Infrasctructure */,
+				C0CEA1DA2B2346CE000349D3 /* Controller */,
+				C0CEA1D82B23468E000349D3 /* Coordinator */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C0CEA1D82B23468E000349D3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1EA2B23475D000349D3 /* VerdeCoordinator.swift */,
+				C0CEA1EE2B23477E000349D3 /* VermelhaCoordinator.swift */,
+				C0CEA1EC2B23476A000349D3 /* AzulCoordinator.swift */,
+				C0CEA1F02B2348AC000349D3 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C0CEA1DA2B2346CE000349D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1DB2B2346D5000349D3 /* Azul */,
+				C0CEA1DD2B2346E7000349D3 /* Verde */,
+				C0CEA1DC2B2346DB000349D3 /* Vermelha */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0CEA1DB2B2346D5000349D3 /* Azul */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1E62B23473E000349D3 /* AzulView.swift */,
+				C0CEA1E82B23474B000349D3 /* AzulViewController.swift */,
+			);
+			path = Azul;
+			sourceTree = "<group>";
+		};
+		C0CEA1DC2B2346DB000349D3 /* Vermelha */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1E22B234722000349D3 /* VermelhaView.swift */,
+				C0CEA1E42B234734000349D3 /* VermelhaViewController.swift */,
+			);
+			path = Vermelha;
+			sourceTree = "<group>";
+		};
+		C0CEA1DD2B2346E7000349D3 /* Verde */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1DE2B23470E000349D3 /* VerdeView.swift */,
+				C0CEA1E02B234718000349D3 /* VerdeViewController.swift */,
+			);
+			path = Verde;
+			sourceTree = "<group>";
+		};
+		C0CEA1F22B234AD7000349D3 /* Infrasctructure */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1F32B234AF8000349D3 /* ButtonDefault.swift */,
+			);
+			path = Infrasctructure;
+			sourceTree = "<group>";
+		};
+		C0CEA1F52B2359D8000349D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1F62B2359ED000349D3 /* UIColor+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +246,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CEA1E72B23473E000349D3 /* AzulView.swift in Sources */,
+				C0CEA1E12B234718000349D3 /* VerdeViewController.swift in Sources */,
+				C0CEA1F12B2348AC000349D3 /* Coordinator.swift in Sources */,
 				C0CEA1C62B23453D000349D3 /* ViewController.swift in Sources */,
+				C0CEA1EB2B23475D000349D3 /* VerdeCoordinator.swift in Sources */,
+				C0CEA1EF2B23477E000349D3 /* VermelhaCoordinator.swift in Sources */,
+				C0CEA1E52B234734000349D3 /* VermelhaViewController.swift in Sources */,
+				C0CEA1E32B234722000349D3 /* VermelhaView.swift in Sources */,
+				C0CEA1ED2B23476A000349D3 /* AzulCoordinator.swift in Sources */,
+				C0CEA1E92B23474B000349D3 /* AzulViewController.swift in Sources */,
 				C0CEA1C22B23453D000349D3 /* AppDelegate.swift in Sources */,
+				C0CEA1F42B234AF8000349D3 /* ButtonDefault.swift in Sources */,
 				C0CEA1C42B23453D000349D3 /* SceneDelegate.swift in Sources */,
+				C0CEA1DF2B23470E000349D3 /* VerdeView.swift in Sources */,
+				C0CEA1F72B2359ED000349D3 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
