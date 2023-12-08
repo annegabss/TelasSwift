@@ -18,4 +18,15 @@ class VerdeCoordinator: Coordinator {
         let viewController = VerdeViewController()
         self.navigationController.pushViewController(viewController, animated: true)
     }
+    
+    func  gotoAzul() {
+       let coordinator = AzulCoordinator(navigationController: navigationController)
+        coordinator.start()
+    }
+    
+    func  gotoVermelha() {
+       let coordinator = VermelhaCoordinator(navigationController: navigationController)
+        coordinator.start()
+    }
+    
 }

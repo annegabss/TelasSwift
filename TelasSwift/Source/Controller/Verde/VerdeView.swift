@@ -24,7 +24,6 @@ class VerdeView: UIView {
     func setupVisualElements() {
         self.addSubview(buttonVermelha)
         self.addSubview(buttonAzul)
-
             
         NSLayoutConstraint.activate([
     
@@ -38,7 +37,8 @@ class VerdeView: UIView {
         buttonAzul.heightAnchor.constraint(equalToConstant: 60),
         buttonAzul.topAnchor.constraint(equalTo: buttonVermelha.bottomAnchor, constant: 25),
         buttonAzul.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
-        buttonAzul.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16)])
+        buttonAzul.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16)
+        ])
     
     
 }

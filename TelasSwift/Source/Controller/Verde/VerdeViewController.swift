@@ -10,6 +10,9 @@ import UIKit
 
 class VerdeViewController: UIViewController {
     
+    var onVermelhaTap: (() -> Void)?
+    var onAzulTap: (() -> Void)?
+    
     //MARK: -  Clouseres
 
     var viewMain = VerdeView()

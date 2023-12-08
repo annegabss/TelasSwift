@@ -21,7 +21,7 @@ class AzulView: UIView {
         
         var buttonVerde = ButtonDefault(botao: "Ir para a tela verde")
     
-        func setupVisualElements() {
+        func setupVisualElements() {            
             self.addSubview(buttonVerde)
             
             buttonVerde.addTarget(self, action: #selector(verdeTap), for: .touchUpInside)
@@ -30,7 +30,7 @@ class AzulView: UIView {
         
                 buttonVerde.widthAnchor.constraint(equalToConstant: 374),
                 buttonVerde.heightAnchor.constraint(equalToConstant: 60),
-                buttonVerde.topAnchor.constraint(equalTo: self.bottomAnchor, constant: 25),
+                buttonVerde.topAnchor.constraint(equalTo: self.topAnchor, constant: 25),
                 buttonVerde.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
                 buttonVerde.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
             
@@ -43,8 +43,8 @@ class AzulView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
                 
-                @objc
-                private func verdeTap(){
-                    onVerdeTap?()
+ @objc
+private func verdeTap(){
+onVerdeTap?()
                 }
 }

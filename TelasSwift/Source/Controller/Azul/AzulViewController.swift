@@ -29,6 +29,7 @@ class AzulViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Azul"
+       
         self.navigationController?.navigationBar.prefersLargeTitles = true     //titulo grande
         
     }
