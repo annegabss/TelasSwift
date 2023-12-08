@@ -15,6 +15,7 @@ class AzulViewController: UIViewController {
     
     lazy var azulView: AzulView = {
         let azulView = AzulView ()
+        
         azulView.onVerdeTap = {
             self.onVerdeTap?()
         }

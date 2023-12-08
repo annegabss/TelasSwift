@@ -15,23 +15,29 @@ class VermelhaCoordinator: Coordinator {
     
     //cria um construtor para incializar meu navationCrontroller
     init (navigationController: UINavigationController ) {
-            self.navigationController = navigationController
-     
-        }
-
-      func start() {
-     //chama a login
-     let viewController = VermelhaViewController()
-          self.navigationController.pushViewController(viewController, animated: true)
-          
-          
-          viewController.onVermelhaTap = {
-              self.gotoVermelha()
-          }
+        self.navigationController = navigationController
+        
     }
     
-    func  gotoVermelha() {
-       let coordinator = VermelhaCoordinator(navigationController: navigationController)
+    func start() {
+        //chama a login
+        let viewController = VermelhaViewController()
+        self.navigationController.pushViewController(viewController, animated: true)
+        
+        viewController.onAzulTap = {
+            self.gotoAzul()}
+        
+        viewController.onVerdeTap = {
+            self.gotoVerde()}
+    }
+    
+    func  gotoVerde() {
+        
+        let coordinator = VerdeCoordinator(navigationController: navigationController)
+        coordinator.start()
+    }
+    func  gotoAzul() {
+        let coordinator = AzulCoordinator(navigationController: navigationController)
         coordinator.start()
     }
 }

@@ -10,25 +10,31 @@ import UIKit
 
 class VermelhaViewController: UIViewController {
     
-    var onVermelhaTap: (() -> Void)?
+    var onVerdeTap: (() -> Void)?
     var onAzulTap: (() -> Void)?
     
     
-    //MARK: -  Clouseres
-
-    var viewMain = VermelhaView()
+    lazy var vermelhaView: VermelhaView = {
+        let vermelhaView = VermelhaView ()
+        vermelhaView.onVerdeTap = {
+            self.onVerdeTap?()
+        }
+        vermelhaView.onAzulTap = {
+            self.onAzulTap?()
+        }
+        
+        return vermelhaView
+    }()
     
-       override func loadView(){
-           self.view = viewMain
-       }
-       
-    // é executado quando está carregando
-       override func viewDidLoad() {
-           super.viewDidLoad()
+    override func loadView() {
+        self.view = vermelhaView
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         self.title = "Vermelha"
-           
-           self.navigationController?.navigationBar.prefersLargeTitles=true
-
-       }
-
-       }
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true     //titulo grande
+        
+    }
+}

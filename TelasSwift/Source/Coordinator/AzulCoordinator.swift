@@ -23,14 +23,15 @@ class AzulCoordinator: Coordinator {
         let viewController = AzulViewController()
         self.navigationController.pushViewController(viewController, animated: true)
         
-        
         viewController.onVerdeTap = {
             self.gotoVerde()
         }
-    }
         
+    
+    }
+    
         func gotoVerde() {
             let coordinator = VerdeCoordinator(navigationController: navigationController)
             coordinator.start()
-    }
+        }
 }

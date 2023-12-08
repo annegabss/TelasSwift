@@ -11,24 +11,36 @@ import UIKit
 class VerdeViewController: UIViewController {
     
     var onVermelhaTap: (() -> Void)?
+    
     var onAzulTap: (() -> Void)?
     
     //MARK: -  Clouseres
+    lazy var verdeView: VerdeView = {
+        let verdeView = VerdeView ()
 
-    var viewMain = VerdeView()
+        
+        verdeView.onAzulTap = {
+            self.onAzulTap?()
+        }
+        
+        verdeView.onVermelhaTap = {
+            self.onVermelhaTap?()
+        }
+        
+        return verdeView
+    }()
     
-       override func loadView(){
-           self.view = viewMain
-       }
-       
-    // é executado quando está carregando
-       override func viewDidLoad() {
-           super.viewDidLoad()
+    override func loadView() {
+        self.view = verdeView
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         self.title = "Verde"
-           
-           self.navigationController?.navigationBar.prefersLargeTitles=true
-
-       }
+       
+        self.navigationController?.navigationBar.prefersLargeTitles = true     //titulo grande
+        
+    }
 
        }
 
